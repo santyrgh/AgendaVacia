@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AgendaVacia</string>
+    <string name="crear_nuevo_contacto">Crear Nuevo Contacto</string>
+    <string name="ingrese_nombre">Ingrese nombre:</string>
+    <string name="ingrese_numero">Ingrese Numero:</string>
+    <string name="ingrese_correo_electronico">Ingrese Correo electronico:</string>
+    <string name="nuevo_registro">Nuevo Registro</string>
+    <string name="Actualizar">actualizar</string>
+</resources>

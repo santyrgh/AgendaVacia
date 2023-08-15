@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VerActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+app:navigationIcon="@drawable/retur"
+        app:title="Mi Aplicación"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingrese_nombre"
+
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ingrese_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_usuario"
+        android:ems="10"
+        android:inputType="text"
+        android:paddingStart="12dp"
+
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ingrese_numero"
+
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ingrese_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_numero"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:hint="@string/ingrese_correo_electronico"
+
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/ingrese_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Actualizar" />
+
+    <TextView
+        android:id="@+id/textViewk"
+        android:layout_width="54dp"
+        android:layout_height="57dp"
+        android:hint=""
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text=""
+
+        android:textSize="24sp" />
+
+    <TableRow
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/eliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingStart="12dp"
+            android:paddingLeft="12dp"
+            android:paddingEnd="32dp"
+            app:srcCompat="@drawable/delete" />
+
+        <TextView
+            android:id="@+id/textViewj"
+            android:layout_width="54dp"
+            android:layout_height="57dp"
+            android:hint=""
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text=""
+
+            android:textSize="24sp" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabeditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|fill_vertical"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:src="@drawable/baseline_edit_24"
+            app:srcCompat="@android:drawable/btn_dialog" />
+    </TableRow>
+
+
+</LinearLayout>

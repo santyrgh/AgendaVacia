@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:navigationIcon="@drawable/retur"
+        app:title="Mi Aplicación"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_nuevo_contacto"
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ingrese_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_usuario"
+        android:ems="10"
+        android:hint="@string/ingrese_nombre"
+        android:inputType="text"
+        android:paddingStart="12dp"
+
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ingrese_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_numero"
+        android:ems="10"
+        android:hint="@string/ingrese_numero"
+        android:inputType="phone"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/ingrese_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custon_imput"
+        android:drawableStart="@drawable/custon_email"
+        android:ems="10"
+        android:hint="@string/ingrese_correo_electronico"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingEnd="12dp"
+        android:paddingStart="12dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_nuevo_contacto" />
+</LinearLayout>
